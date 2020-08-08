@@ -15,4 +15,4 @@ This software will sort out the bookmarks lexicographically.
 
 |Before(Unsorted Bookmarks) | After(Sorted Bookmarks) |
 | --- | --- |
-| ![UnsortedBookmarks](/Screenshots/UnsortedBookmarks.png) | ![SortedBookmarks](/Screenshots/SortedBookmarks.png) |
+| ![UnsortedBookmarks](/Screenshots/UnsortedBookmarks.png) | ![SortedBookmarks](/Screenshots/SortedBookmarks2.png) |
