@@ -15,4 +15,10 @@ This software will sort out the bookmarks lexicographically.
 
 |Before(Unsorted Bookmarks) | After(Sorted Bookmarks) |
 | --- | --- |
-| ![UnsortedBookmarks](/Screenshots/UnsortedBookmarks.png) | ![SortedBookmarks](/Screenshots/SortedBookmarks3.png) |
+| ![UnsortedBookmarks](/Screenshots/UnsortedBookmarks.png) | ![SortedBookmarks](/Screenshots/SortedBookmarks.png) |
+
+---
+
+### Resources:
+1. [Beautiful Soup] ( https://pypi.org/project/beautifulsoup4/ "Beautiful Soup" )
+2. [ASCII Art] ( http://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20 "ASCII Art" )
