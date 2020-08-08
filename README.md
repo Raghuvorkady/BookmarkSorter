@@ -13,6 +13,6 @@ This software will sort out the bookmarks lexicographically.
 ![BookmarkSorter](/Screenshots/BookmarkSorter.png)
 
 
-
-### SortedBookmarks
-![SortedBookmarks](/Screenshots/SortedBookmarks.png)
+|Before(Unsorted Bookmarks) | After(Sorted Bookmarks) |
+| --- | --- |
+| ![UnsortedBookmarks](/Screenshots/UnsortedBookmarks.png) | ![SortedBookmarks](/Screenshots/SortedBookmarks.png) |
