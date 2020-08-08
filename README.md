@@ -1,5 +1,4 @@
 # BookmarkSorter
-
 ---
 
 This is an python project created using BeautifulSoup library.<br/>
@@ -12,7 +11,6 @@ This software will sort out the bookmarks lexicographically.
 * The software sorts the above exported bookmarks.
 
 ## Here are some Screenshots:
-
 ### BookmarkSorter
 ![BookmarkSorter](/Screenshots/BookmarkSorter.png)
 
