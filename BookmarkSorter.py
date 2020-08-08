@@ -32,18 +32,13 @@ for tag in htmlTags:
     newUrl = tag.get('href', None)
     htmlClassOject.rawBookmarkListsHref.append(newUrl)
 
-listContent = list()
-listHref = list()
-listTotal = list()
+sortedBookmarkList = list()
 
 dictTotal = dict()
 for lstItems in range(len(htmlClassOject.rawBookmarkLists)):
-    listContent = htmlClassOject.rawBookmarkLists[lstItems]
-    listHref = htmlClassOject.rawBookmarkListsHref[lstItems]
-    dictTotal[listHref]  = listContent
-listTotal.append(dictTotal)
+    dictTotal[htmlClassOject.rawBookmarkListsHref[lstItems]]  = htmlClassOject.rawBookmarkLists[lstItems]
 
-sort_orders = sorted(dictTotal.items(), key = lambda value: value[1])
+sortedBookmarkList = sorted(dictTotal.items(), key = lambda value: value[1])
 
 folder =  os.path.join("C:",os.environ["HOMEPATH"], "Desktop")
 stringName = bookmarkFileName + ".html"
@@ -73,7 +68,7 @@ HtmlFile.write("""
                     <h2>Sorted bookmark list:</h2>
                 """)
 
-for value, key in sort_orders:
+for value, key in sortedBookmarkList:
     try:
         HtmlFile.write("""
         <a href=""" + value + " target=" + "_blank" +" title="+ value + ">" + key + "</a></br>")
