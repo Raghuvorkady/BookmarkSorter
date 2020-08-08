@@ -6,8 +6,18 @@ import re
 import sys
 import os
 
+print("""
+  ____                    _                                 _       _____                  _
+ |  _ \                  | |                               | |     / ____|                | |
+ | |_) |   ___     ___   | | __  _ __ ___     __ _   _ __  | | __ | (___     ___    _ __  | |_    ___   _ __
+ |  _ <   / _ \   / _ \  | |/ / | '_ ` _ \   / _` | | '__| | |/ /  \___ \   / _ \  | '__| | __|  / _ \ | '__|
+ | |_) | | (_) | | (_) | |   <  | | | | | | | (_| | | |    |   <   ____) | | (_) | | |    | |_  |  __/ | |
+ |____/   \___/   \___/  |_|\_\ |_| |_| |_|  \__,_| |_|    |_|\_\ |_____/   \___/  |_|     \__|  \___| |_|
+
+
+""")
 try:
-    file = input("\n Enter the location of your exported BOOKMARK file (like D:\Documents\exported-bookmarks.html): \n -> ")
+    file = input(" Enter the location of your exported BOOKMARK file (like D:\Documents\exported-bookmarks.html): \n -> ")
     filehandler = open(file,encoding="utf8")
 except:
     print("\n Error while openning the file")
