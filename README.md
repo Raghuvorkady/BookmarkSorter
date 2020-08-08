@@ -20,6 +20,5 @@ This software will sort out the bookmarks lexicographically.
 ---
 
 ### Resources:
-
-1. [Beautiful Soup] (https://pypi.org/project/beautifulsoup4/ "Beautiful Soup")
-2. [ASCII Art] (http://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20 "ASCII Art")
+1. [Beautiful Soup](https://pypi.org/project/beautifulsoup4/ "https://pypi.org/project/beautifulsoup4/")
+2. [ASCII Art](http://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20 "http://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20")
